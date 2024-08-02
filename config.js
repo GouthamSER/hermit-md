@@ -34,7 +34,7 @@ module.exports = {
 
 	VERSION: 'v4.4.1', 
 
-    SESSION_ID: process.env.SESSION_ID || '',
+    SESSION_ID: process.env.SESSION_ID || '08_02_H_E_R_M_I_T_YYR7PRG',
 
     MODE: (process.env.MODE || 'private').toLowerCase(),
 
@@ -60,11 +60,11 @@ module.exports = {
 
     ANTILINK_MSG: process.env.ANTILINK_MSG || '_Link Not Allowed!_\n_(Change this by setting var ANTILINK_MSG)_',
 
-    BOT_INFO: process.env.BOT_INFO || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;972528277755;https://i.imgur.com/6oRG106.jpeg',
+    BOT_INFO: process.env.BOT_INFO || 'KuttuBot;GouthamJosh;917034898741;https://i.imgur.com/',
 
-    AUDIO_DATA: process.env.AUDIO_DATA === undefined ? 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;https://i.imgur.com/fj2WE83.jpeg' : process.env.AUDIO_DATA,
+    AUDIO_DATA: process.env.AUDIO_DATA === undefined ? 'KuttuBot;GouthamJosh;https://i.imgur.com/fj2WE83.jpeg' : process.env.AUDIO_DATA,
 
-    STICKER_DATA: process.env.STICKER_DATA === undefined ? 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ' : process.env.STICKER_DATA,
+    STICKER_DATA: process.env.STICKER_DATA === undefined ? 'KuttuBot;GouthamJosh' : process.env.STICKER_DATA,
 
     ERROR_MESSAGE: process.env.ERROR_MESSAGE === undefined ? true : toBool(process.env.ERROR_MESSAGE), 
 
@@ -108,7 +108,7 @@ module.exports = {
 
        BRAIN_ID: process.env.BRAIN_ID || 'bid=168613&key=EfbnX54Iy9PFIFp3',
 
-       SUDO: process.env.SUDO || '972528277700,0',
+       SUDO: process.env.SUDO || '917034898741,0',
 
        DEBUG: DEBUG
 
